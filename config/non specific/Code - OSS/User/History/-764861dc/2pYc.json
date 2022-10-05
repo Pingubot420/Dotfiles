@@ -1,7 +1,0 @@
-{
-    "workbench.startupEditor": "none",
-    "window.autoDetectColorScheme": true,
-    "window.titleBarStyle": "custom",
-    "security.workspace.trust.untrustedFiles": "open",
-    "workbench.colorTheme": "Nord"
-}

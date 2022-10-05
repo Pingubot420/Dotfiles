@@ -1,4 +1,0 @@
-[2022-10-01 02:04:58.220] [main] [info] update#ctor - updates are disabled as there is no update URL
-[2022-10-01 02:04:59.693] [main] [info] Starting extension host with pid 24337 (fork() took 15 ms).
-[2022-10-01 02:05:00.816] [main] [info] Waiting for extension host with pid 24337 to exit.
-[2022-10-01 02:05:02.270] [main] [info] Extension host with pid 24337 exited with code: 0, signal: null.
