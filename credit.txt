@@ -1,0 +1,1 @@
+i3-gaps slightly modified version of https://mintyserver.net/git/poslop/Pink-Nord
