@@ -1,0 +1,81 @@
+[2022-10-01 02:05:00.479] [exthost] [info] Extension host with pid 24337 started
+[2022-10-01 02:05:00.528] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-10-01 02:05:00.531] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-10-01 02:05:00.533] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-10-01 02:05:00.536] [exthost] [info] ExtensionService#_doActivateExtension TabNine.tabnine-vscode, startup: true, activationEvent: '*'
+[2022-10-01 02:05:00.591] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2022-10-01 02:05:00.739] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-10-01 02:05:00.758] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-10-01 02:05:00.762] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-10-01 02:05:00.764] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-10-01 02:05:00.790] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-10-01 02:05:00.826] [exthost] [info] Extension host terminating: renderer closed the socket
+[2022-10-01 02:05:00.830] [exthost] [info] Eager extensions activated
+[2022-10-01 02:05:00.831] [exthost] [error] Activating extension vscode.emmet failed due to an error:
+[2022-10-01 02:05:00.831] [exthost] [error] Canceled: Canceled
+    at new C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:43375)
+    at i._remoteCall (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:95:13746)
+    at Proxy.R.<computed>.U.charCodeAt.R.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:95:10301)
+    at b._activateExtension (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:13836)
+    at Object.actualActivateExtension (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:9877)
+    at E._activate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:8241)
+    at E._waitForDepsThenActivate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:8177)
+    at E._initialize (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:7541)
+    at new E (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:7340)
+    at T._createAndSaveOperation (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:6965)
+    at T._handleActivationRequest (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:6876)
+    at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:5308
+    at Array.map (<anonymous>)
+    at T._activateExtensions (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:5296)
+    at T.activateById (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:5172)
+    at b._activateById (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:11926)
+    at b._activateOneStartupFinished (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:17886)
+    at b._activateAllStartupFinished (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:18264)
+    at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:18761
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-10-01 02:05:00.831] [exthost] [error] Activating extension vscode.merge-conflict failed due to an error:
+[2022-10-01 02:05:00.831] [exthost] [error] Canceled: Canceled
+    at new C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:43375)
+    at i._remoteCall (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:95:13746)
+    at Proxy.R.<computed>.U.charCodeAt.R.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:95:10301)
+    at b._activateExtension (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:13836)
+    at Object.actualActivateExtension (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:9877)
+    at E._activate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:8241)
+    at E._waitForDepsThenActivate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:8177)
+    at E._initialize (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:7541)
+    at new E (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:7340)
+    at T._createAndSaveOperation (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:6965)
+    at T._handleActivationRequest (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:6876)
+    at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:5308
+    at Array.map (<anonymous>)
+    at T._activateExtensions (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:5296)
+    at T.activateById (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:5172)
+    at b._activateById (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:11926)
+    at b._activateOneStartupFinished (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:17886)
+    at b._activateAllStartupFinished (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:18264)
+    at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:18761
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-10-01 02:05:00.831] [exthost] [error] Activating extension zhuangtongfa.material-theme failed due to an error:
+[2022-10-01 02:05:00.831] [exthost] [error] Canceled: Canceled
+    at new C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:43375)
+    at i._remoteCall (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:95:13746)
+    at Proxy.R.<computed>.U.charCodeAt.R.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:95:10301)
+    at b._activateExtension (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:13836)
+    at Object.actualActivateExtension (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:9877)
+    at E._activate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:8241)
+    at E._waitForDepsThenActivate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:8177)
+    at E._initialize (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:7541)
+    at new E (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:7340)
+    at T._createAndSaveOperation (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:6965)
+    at T._handleActivationRequest (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:6876)
+    at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:5308
+    at Array.map (<anonymous>)
+    at T._activateExtensions (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:5296)
+    at T.activateById (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:5172)
+    at b._activateById (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:11926)
+    at b._activateOneStartupFinished (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:17886)
+    at b._activateAllStartupFinished (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:18264)
+    at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:18761
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-10-01 02:05:01.691] [exthost] [error] Error: ENOENT: no such file or directory, open '/home/pingu/.config/Code - OSS/User/globalStorage/vscodevim.vim/.registers'
+[2022-10-01 02:05:02.255] [exthost] [info] Extension host with pid 24337 exiting with code 0

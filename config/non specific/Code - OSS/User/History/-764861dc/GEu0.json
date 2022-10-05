@@ -1,0 +1,20 @@
+{
+    "workbench.startupEditor": "none",
+    "window.autoDetectColorScheme": true,
+    "window.titleBarStyle": "custom",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Default Light+",
+    "workbench.preferredDarkColorTheme": "Nord",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "tabnine.experimentalAutoImports": true,
+    "terminal.integrated.ignoreProcessNames": [
+        "starship",
+        "oh-my-posh",
+        "bash",
+        "zsh",
+        "fish"
+    ],
+    "terminal.external.linuxExec": "alacritty",
+    "terminal.integrated.defaultProfile.linux": "fish"
+}

@@ -1,0 +1,20 @@
+[2022-09-30 17:41:21.308] [exthost] [info] Extension host with pid 9918 started
+[2022-09-30 17:41:21.358] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-09-30 17:41:21.361] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-09-30 17:41:21.362] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-09-30 17:41:21.365] [exthost] [info] ExtensionService#_doActivateExtension TabNine.tabnine-vscode, startup: true, activationEvent: '*'
+[2022-09-30 17:41:21.427] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2022-09-30 17:41:21.566] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-09-30 17:41:21.583] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-09-30 17:41:21.585] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-30 17:41:21.587] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-30 17:41:21.611] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-30 17:41:21.665] [exthost] [info] Eager extensions activated
+[2022-09-30 17:41:21.693] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-30 17:41:21.698] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-30 17:41:21.699] [exthost] [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-30 17:41:23.449] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-09-30 17:41:23.474] [exthost] [error] Error: read ECONNRESET
+    at Pipe.onStreamRead (node:internal/stream_base_commons:217:20)
+[2022-09-30 17:41:23.475] [exthost] [error] Error: ENOENT: no such file or directory, open '/home/pingu/.config/Code - OSS/User/globalStorage/vscodevim.vim/.registers'
+[2022-09-30 17:41:23.665] [exthost] [info] Extension host with pid 9918 exiting with code 0
