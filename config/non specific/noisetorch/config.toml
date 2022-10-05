@@ -3,5 +3,5 @@ DisplayMonitorSources = false
 EnableUpdates = true
 FilterInput = true
 FilterOutput = false
-LastUsedInput = "alsa_input.usb-0b0e_Jabra_SPEAK_410_USB_0023781F4DB5x010100-00.mono-fallback"
+LastUsedInput = ""
 LastUsedOutput = ""
