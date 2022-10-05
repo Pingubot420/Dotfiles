@@ -30,7 +30,7 @@ default_floating_border pixel 1
 
 gaps inner 15
 
-exec_always --no-startup-id feh --bg-fill /home/pingu/Pictures/thingy.png
+exec_always --no-startup-id feh --bg-fill $HOME/Pictures/thingy.png
 exec_always --no-startup-id numlockx on
 exec_always --no-startup-id setxkbmap -layout gb -option eurosign:e
 exec --no-startup-id picom &
@@ -69,8 +69,7 @@ exec_always --no-startup-id autotiling
 exec greenclip daemon
 bindsym $mod+p exec --no-startup-id rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
 bindsym $mod+v exec --no-startup-id ~/.config/rofi/applets/bin/volume.sh
-bindsym $mod+x exec --no-startup-id powermenu_t2
-bindsym $mod+Shift+d exec --no-startup-id discord --ignore-gpu-blocklist --disable-features=UseOzonePlatform --enable-features=VaapiVideoDecoder --use-gl=desktop --enable-gpu-rasterization --enable-zero-copy -run-shell-command '{alacritty} -e fish -ic "{cmd} && read"'
+bindsym $mod+x exec --no-startup-id ~/.config/rofi/applets/bin/powermenu.sh
 bindsym $mod+Shift+s exec --no-startup-id flameshot gui
 
 # Brightness
