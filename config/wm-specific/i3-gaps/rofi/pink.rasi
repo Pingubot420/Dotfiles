@@ -1,0 +1,66 @@
+*{
+fg: #fe9bce;
+bg: #25283f;
+black: #383e5b;
+magenta: #b1d4e9;
+cyan: #89a1e2;
+
+black2: #545d89;
+
+text-color: @fg;
+background-color: @bg;
+}
+
+window {
+ border-color: @fg;
+ border: 1;
+ padding: 0;
+ width: 500;
+}
+
+mainbox {
+// background-color: @magenta;
+ border: 2;
+ padding: 5;
+}
+
+inputbar {
+  spacing:    5;
+  text-color: @fg;
+  padding:    0px ;
+}
+
+prompt {
+ text-color: @magenta;
+ background: @cyan;
+}
+
+listview {
+  text-color: @black;
+  background-color: @bg;
+  spacing: 5;
+}
+
+element {
+  padding: 0;
+  children: [element-text];
+}
+
+
+element normal {
+  highlight: @fg;
+  background-color: @bg;
+  text-color: @black2;
+}
+ 
+element selected {
+  highlight: @bg;
+  background-color: @cyan;
+  text-color: @black2;
+}
+
+element-text {
+  highlight: inherit;
+  text-color: inherit;
+  background-color: inherit;
+}
